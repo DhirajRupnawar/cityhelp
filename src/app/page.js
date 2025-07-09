@@ -6,6 +6,7 @@ import Category from "./components/category";
 import ServicesPage from "./components/serrvices";
 import WhyChooseUs from "./components/whychooseus";
 import HomeServicesLayout from "./components/advertise"
+import Footer from "./components/footer";   
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <ServicesPage />
       <WhyChooseUs />
       {/* <HomeServicesLayout/> */}
+      <Footer/>
     </div>
   );
 };
